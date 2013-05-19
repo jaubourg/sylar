@@ -30,7 +30,9 @@ sylar( {
 		"*.tmp;*.bin;**/inlineImages/**": true
 	},
 	filter: {
-		"*.css;*.js;*.json": sylar.template( data )
+		"*.css;*.js;*.json": function( content ) {
+			return _.template( content, data );
+		}
 	}
 } ).done( function() {
 	console.log( "Eveything has been copied" );
