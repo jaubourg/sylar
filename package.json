@@ -1,0 +1,24 @@
+{
+	"name": "sylar",
+	"description": "recursively copy directories and files, eventually modifying them in the process",
+	"author": "Julian Aubourg <j@ubourg.net>",
+	"version": "0.1.0",
+	"homepage": "https://github.com/jaubourg/sylar",
+	"main": "lib/sylar.js",
+	"dependencies": {
+		"fence": "0.3.x",
+		"JQDeferred": ">1.6",
+		"lodash": "1.2.x"
+	},
+	"devDependencies": {
+	},
+	"engines": {
+		"node": ">0.6"
+	},
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/jaubourg/sylar/LICENSE"
+		}
+	]
+}
