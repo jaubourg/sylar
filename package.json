@@ -2,11 +2,11 @@
 	"name": "sylar",
 	"description": "recursively copy directories and files, eventually modifying them in the process",
 	"author": "Julian Aubourg <j@ubourg.net>",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"homepage": "https://github.com/jaubourg/sylar",
 	"main": "lib/sylar.js",
 	"dependencies": {
-		"fence": "0.3.x",
+		"fence": "0.4.x",
 		"JQDeferred": ">1.6",
 		"lodash": "1.2.x"
 	},
