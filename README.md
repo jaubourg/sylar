@@ -2,7 +2,7 @@
 
 Sylar is a utility function that recursively copies the content of a folder into another location, eventually transforming the content in the process.
 
-_Latest version of Sylar is version 0.1.0_
+_Latest version of Sylar is version 0.2.0_
 
 ## Installation
 
