@@ -42,6 +42,12 @@ _.forOwn( {
 	"/root/folder/file": {
 		"/root/folder/file": true,
 		"something/root/folder/file": false
+	},
+	"file<.min>.js" : {
+		"path/to/file.js": true,
+		"path/to/file.min.js": true,
+		"path/to/file..js": false,
+		"path/to/file<.min>.js": false
 	}
 }, function( results, pattern ) {
 	module.exports[ pattern ] =  function( test ) {
